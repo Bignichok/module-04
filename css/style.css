@@ -13,6 +13,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 .clearfix::after {
   display: table;
   content: "";
@@ -30,6 +31,7 @@ img {
   margin: 0;
   margin-bottom: 102px;
 }
+
 .logo-text {
   font-size: 30px;
   font-weight: 400;
@@ -44,6 +46,12 @@ img {
   color: #1abc9c;
   font-weight: bold;
   margin-bottom: 92px;
+}
+.logo-link {
+  text-decoration: none;
+  color: #555252;
+  margin: 0;
+  padding: 0;
 }
 .navigation-list {
   list-style: none;
@@ -138,7 +146,7 @@ img {
   text-decoration: none;
   color: #ffffff;
 }
-.background-wrapper {
+.background-container {
   display: inline-block;
   background-color: #323232;
   margin: 0;
