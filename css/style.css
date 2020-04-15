@@ -13,9 +13,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-* {
-  outline: 1px solid red;
-}
+
 .clearfix::after {
   display: table;
   content: "";
@@ -61,6 +59,8 @@ img {
   padding: 0;
   float: right;
   font-family: "Open Sans", sans-serif;
+
+  margin-right: 30px;
 }
 .navigation-list-item-link {
   font-size: 14px;
