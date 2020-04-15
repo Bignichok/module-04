@@ -13,15 +13,15 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+* {
+  outline: 1px solid red;
+}
 .clearfix::after {
   display: table;
   content: "";
   clear: both;
 }
-.header {
-  font-family: "roboto", sans-serif;
-}
+
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -30,6 +30,7 @@ img {
   float: left;
   margin: 0;
   margin-bottom: 102px;
+  padding-left: 30px;
 }
 
 .logo-text {
@@ -38,7 +39,7 @@ img {
   line-height: 32px;
   text-transform: uppercase;
   color: #555252;
-  padding-left: 30px;
+  font-family: "roboto", sans-serif;
   margin-top: 36px;
   margin-bottom: 0px;
 }
@@ -55,14 +56,15 @@ img {
 }
 .navigation-list {
   list-style: none;
-  width: 446px;
+  width: 476px;
   margin-top: 40px;
   padding: 0;
   float: right;
-  padding-right: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 .navigation-list-item-link {
-  font-size: 11px;
+  font-size: 14px;
+  line-height: 11px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -76,7 +78,6 @@ img {
   float: left;
 }
 .navigation-list-item:nth-child(1) {
-  margin-left: 10px;
   margin-right: 34px;
 }
 .navigation-list-item:nth-child(2) {
@@ -86,10 +87,10 @@ img {
   margin-right: 30px;
 }
 .navigation-list-item:nth-child(4) {
-  margin-right: 27px;
+  margin-right: 26px;
 }
 .navigation-list-item:nth-child(4) {
-  margin-right: 27px;
+  margin-right: 26px;
 }
 .navigation-list-item:nth-child(5) {
   margin-right: 34px;
