@@ -111,12 +111,10 @@ img {
   margin-bottom: 30px;
 }
 
-.products-list-item:hover .product-name {
+.products-list-item:hover .background-container {
   background-color: #1abc9c;
 }
-.products-list-item:hover .product-price {
-  background-color: #1abc9c;
-}
+
 .product-link {
   text-decoration: none;
   color: #ffffff;
